@@ -1,3 +1,6 @@
-fn main() {
-    println!("Hello, world!");
+mod puzzles;
+
+pub fn main() {
+    println!("Day 1: part 1 -> {}", puzzles::day_01::part_one());
+    println!("Day 1: part 2 -> {}", puzzles::day_01::part_two());
 }
